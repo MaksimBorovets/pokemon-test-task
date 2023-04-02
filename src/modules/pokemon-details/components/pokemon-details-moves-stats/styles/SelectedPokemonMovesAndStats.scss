@@ -1,0 +1,28 @@
+.MovesAndStatsContainer {
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-top: 16px;
+  }
+  
+  .MovesContainer,
+  .StatsContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+  }
+  
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  }
+  
+  li {
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+  }
+  
